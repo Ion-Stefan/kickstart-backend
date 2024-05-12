@@ -7,7 +7,7 @@
  ```
 2 - **Install dependencies**:
 ```bash
-cd backend-kickstart
+cd kickstart-backend
 npm install
 ```
 2.5 - **Create postgresql db**:
