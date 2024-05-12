@@ -3,7 +3,7 @@
 ### Setup
 1 - **Clone the repository**:
  ```bash
- git clone https://github.com/your-username/backend-kickstart.git
+ git clone https://github.com/Ion-Stefan/kickstart-backend.git
  ```
 2 - **Install dependencies**:
 ```bash
