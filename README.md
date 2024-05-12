@@ -27,3 +27,8 @@ npx prisma studio
 5 - **Check the database schema**:
 
 Go to [localhost:5555](http://localhost:5555) and check to see if the models are present in your database.
+
+6 - **Start the server**:
+```bash
+npm run dev
+```
