@@ -15,4 +15,14 @@ router.put('/product/:id', body('name').isString(), handleInputErrors, updatePro
 router.post('/product', body('name').isString(), handleInputErrors, createProduct)
 router.delete('/product/:id', deleteProduct)
 
+//Error handler
+router.use((err, res) => {
+  if (err.type === 'server') {
+    res.status(500).json({ message: 'oops, server crashed' });
+  }
+  else {
+    res.status(500).json({ message: 'oops, something went wrong' })
+  }
+})
+
 export default router;
